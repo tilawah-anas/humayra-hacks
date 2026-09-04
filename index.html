@@ -4,49 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      background-color: #8BBB92;
-    }
-
-    button {
-      color: black;
-      padding: 20px;
-      width: 40%;
-      font-size: 10px;
-      font-weight: 1000;
-      border-radius: 80px;
-      background-color: #fff;
-      border: none;
-      box-shadow: 1px 1px 5px black;
-      cursor: pointer;
-      transition: 0.2s;
-    }
-
-    button:hover {
-      background-color: #12544F;
-      color: #fff;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <button onclick="captureMaryam()">click meee !!!</button>
-  
-  <script>
-    function captureMaryam() {
-      alert("Maryam is loved !!! 🤍🤍🤍");
-    }
-  </script>
+  <h1>Do you love me ??</h1>
+   
+  <div class="buttons">
+    <button onclick="yesBtn()">Yess!</button>
+    <button id="noBtn" onclick="moveNo()">No!</button>
+  </div>
+   
+  <script src="script.js"></script>
 </body>
 </html>
